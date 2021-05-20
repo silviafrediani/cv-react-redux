@@ -1,0 +1,11 @@
+@import 'bootstrap/scss/bootstrap';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+.sidebar-wrapper a {
+  i {
+    color:$primary;
+  }
+  &.active i {
+    color: white;
+  }
+}

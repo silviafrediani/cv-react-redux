@@ -1,0 +1,78 @@
+{
+  "cv": {
+    "IPArr": {
+      "PhotoFileName": "photo_1.jpg",
+      "IPNome": "silvia",
+      "IPCognome": "frediani",
+      "IPQualifica": "Web developer",
+      "IPViaCivico": "Via ...",
+      "IPCap": "50143",
+      "IPCitta": "firenze",
+      "IPProvincia": "FI",
+      "IPNazione": "Italia",
+      "IPEmail": "silvia.frediani@tiscali.it",
+      "IPSesso": "Femminile",
+      "IPDataNascita": "1978-08-31",
+      "IPTelefonoArr": [
+        {
+          "tipo": "cellulare",
+          "numero": "333 1234567"
+        }
+      ],
+      "IPSitoArr": [
+        "www.silviafrediani.it",
+        "www.caffeolivuzzo.it"
+      ],
+      "IPNazionalita": [
+        "Italia"
+      ]
+    },
+    "EPArr": [
+      {
+        "EPDataDa": "2002-03-03",
+        "EPDataA": "2005-10-29",
+        "EPIncorso": false,
+        "EPOccupazione": "Web designer",
+        "EPNomeDL": "La Pulce TLF",
+        "EPCittaDL": "Firenze",
+        "EPNazioneDL": "Italia",
+        "EPWebsiteDL": "www.lapulce.it",
+        "EPAttivita": "",
+        "EPFileName": "",
+        "EPOrdinamento": "0"
+      },
+      {
+        "EPDataDa": "2016-09-01",
+        "EPDataA": "2030-05-29",
+        "EPIncorso": true,
+        "EPOccupazione": "Web developer",
+        "EPNomeDL": "Me stesso",
+        "EPCittaDL": "Firenze",
+        "EPNazioneDL": "Italia",
+        "EPWebsiteDL": "www.silviafrediani.it",
+        "EPAttivita": "",
+        "EPFileName": "",
+        "EPOrdinamento": "0"
+      }
+    ],
+    "IFArr": [
+      {
+        "IFDataDa": "",
+        "IFDataA": "",
+        "IFIncorso": false,
+        "IFLivelloIstruzione": "Scuola Primaria",
+        "IFQualifica": "",
+        "IFNomeOrg": "Duca d'Aosta",
+        "IFCittaOrg": "Firenze",
+        "IFNazioneOrg": "Italia",
+        "IFWebsiteOrg": "",
+        "IFTematiche": "",
+        "IFFileName": "",
+        "IFOrdinamento": "0"
+      }
+    ],
+    "LMArr": [],
+    "LSArr": [],
+    "AIArr": []
+  }
+}
