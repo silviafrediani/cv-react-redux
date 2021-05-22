@@ -158,25 +158,33 @@ export function InfoPersonaliForm(props) {
 				</select>
 			</div>
 
-{/*
-
 			<div className="mb-3">
-				<p><strong>
-					{!selectedDay && '<strong></strong>Seleziona Data di nascita'}
-					{selectedDay &&
-						`Data di nascita: ${selectedDay.toLocaleDateString()}`}
-					</strong>
-				</p>
-				<DayPickerInput
-					value={props.ip.IPDataNascita}
-					onDayChange={handleDayChange}
-					dayPickerProps={{
-						selectedDays: selectedDay,
-					}}
+				<label>Data di nascita</label>
+				<input type="date"
+					className="form-control"
+					name="IPDataNascita"
+					value={props.ip.IPDataNascita ? props.ip.IPDataNascita : ''}
+					onChange={handleChange}
 				/>
 			</div>
 
-*/}
+			{/*
+					<div className="mb-3">
+						<p><strong>
+							{!selectedDay && '<strong></strong>Seleziona Data di nascita'}
+							{selectedDay &&
+								`Data di nascita: ${selectedDay.toLocaleDateString()}`}
+							</strong>
+						</p>
+						<DayPickerInput
+							value={props.ip.IPDataNascita}
+							onDayChange={handleDayChange}
+							dayPickerProps={{
+								selectedDays: selectedDay,
+							}}
+						/>
+					</div>
+			*/}
 
 			<div className="mb-3">
 				<label>Nazionalità</label>

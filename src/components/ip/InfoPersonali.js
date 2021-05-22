@@ -35,7 +35,7 @@ export function InfoPersonali(props) {
 			<div className="col-12 col-md-4 col-lg-3">
 				<h4>INFORMAZIONI PERSONALI</h4>
 				<NavLink
-						className="btn btn-primary"
+					className="btn btn-primary"
 					to="/info-personali"
 				>Modifica</NavLink>
 
@@ -57,7 +57,7 @@ export function InfoPersonali(props) {
 						<li key="sito" className="list-group-item"><strong>Sito: </strong>{sitesItems}</li>
 						<li key="telefono" className="list-group-item"><strong>Telefono: </strong>{phoneItems}</li>
 						<li key="sesso" className="list-group-item"><strong>Sesso: </strong>{props.ip.IPSesso}</li>
-						<li key="data_nascita" className="list-group-item"><strong>Data Nascita: </strong>{props.ip.IPDataNascita}</li>
+						<li key="data_nascita" className="list-group-item"><strong>Data Nascita: </strong>{new Date(props.ip.IPDataNascita).toLocaleDateString()}</li>
 						<li key="nazionalita" className="list-group-item"><strong>Nazionalità: </strong>{nazionalitaItems}</li>
 					</ul>
 					}	
